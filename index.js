@@ -121,6 +121,13 @@ console.log("Average Change : $" + (totalChange/(finances.length - 1)).toFixed(2
 var greatestIncrease = Math.max(...changes);
 var greatestDecrease = Math.min(...changes);
 
+var indexMax = changes.indexOf(greatestIncrease) + 1;
+var indexMin = changes.indexOf(greatestDecrease) + 1;
+
+
+
+console.log(finances)
+
 console.log("Greatest Increase in Profits: " + "($"+ greatestIncrease + ")");
 console.log("Greatest Decrease in Profits: " + "($" + greatestDecrease + ")");
 
