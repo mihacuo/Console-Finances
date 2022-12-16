@@ -1,7 +1,7 @@
 var finances = [
-  ["Jan-2010", 867884],
-  ["Feb-2010", 984655],
-  ["Mar-2010", 322013],
+  ["Jan-2010", 867884], // finances[0 - row(x)] [0 - column(y)]
+  ["Feb-2010", 984655], // finances[1][0]
+  ["Mar-2010", 322013],  
   ["Apr-2010", -69417],
   ["May-2010", 310503],
   ["Jun-2010", 522857],
@@ -42,8 +42,8 @@ var finances = [
   ["May-2013", 565603],
   ["Jun-2013", 872480],
   ["Jul-2013", 789480],
-  ["Aug-2013", 999942],
-  ["Sep-2013", -1196225],
+  ["Aug-2013", 999942],  ///     £-55
+  ["Sep-2013", -1196225], //    £60
   ["Oct-2013", 268997],
   ["Nov-2013", -687986],
   ["Dec-2013", 1150461],
@@ -124,12 +124,13 @@ var greatestDecrease = Math.min(...changes);
 var indexMax = changes.indexOf(greatestIncrease) + 1;
 var indexMin = changes.indexOf(greatestDecrease) + 1;
 
+var maxMonth = finances[indexMax][0]
+var minMonth = finances[indexMin][0]
 
+console.log(changes)
 
-console.log(finances)
-
-console.log("Greatest Increase in Profits: " + "($"+ greatestIncrease + ")");
-console.log("Greatest Decrease in Profits: " + "($" + greatestDecrease + ")");
+console.log("Greatest Increase in Profits: " + maxMonth + " ($"+ greatestIncrease + ")");
+console.log("Greatest Decrease in Profits: " + minMonth + " ($" + greatestDecrease + ")");
 
 
 
