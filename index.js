@@ -100,20 +100,32 @@ console.log("Total Months: " + finances.length);
 var netTotal = 0;
 var totalChange = 0;
 
+var changes = [];
 
 for (i = 0; i < finances.length; i++) {
   netTotal += finances[i][1];
   if (i != 0) {
     // work out the change here
-    totalChange += finances[i][1] - finances[i-1][1]
+    var currentChange = finances[i][1] - finances[i-1][1];
+
+    changes.push(currentChange);
+    totalChange += currentChange;
   }
 }
 
 console.log("Total: $" + netTotal);
-console.log("Average Change : $" + (totalChange/(finances.length - 1)).toFixed(2));
-
 
 // The average of the changes in Profit/Losses over the entire period.
+console.log("Average Change : $" + (totalChange/(finances.length - 1)).toFixed(2));
+
+var greatestIncrease = Math.max(...changes);
+var greatestDecrease = Math.min(...changes);
+
+console.log("Greatest Increase in Profits: " + "($"+ greatestIncrease + ")");
+console.log("Greatest Decrease in Profits: " + "($" + greatestDecrease + ")");
+
+
+
 // calculate each change by subtracting the previous month from this month
 // You will need to track what the total change in profits is from month to month and then find the average.
 // (Total/total number of changes) ===> total change/(months - 1)
