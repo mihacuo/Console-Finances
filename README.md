@@ -1,94 +1,62 @@
-# Unit 4 Challenge: Console Finances
+# Console Finances
 
-## Overview
- 
-In this challenge, you'll be using the concepts you've learned to complete the required activity. This activity presents a real-world situation in which your newfound JavaScript skills will come in handy. You are tasked with creating code for analyzing the financial records of a company. You have been provided with a financial dataset in the `starter/index.js` file.
+This project was created to meet the requirements of the challenge 4 on BootCamp
 
-## Instructions
+## Description
 
-1. Create a new GitHub repo called `Console-Finances`. Then, clone it to your computer.
+This repo will have a live code, deployed on github pages. This will load an index.html, with no visible content. 
+Javascript will run, on load, and the results could be viewed in the console. 
 
-2. Copy the starter files in your local git repository.
-   
-You have been given a dataset composed of arrays with two fields, Date and Profit/Losses.
+## Getting Started
 
-Your task is to write JavaScript code that analyzes the records to calculate each of the following:
+### Dependencies
 
-* The total number of months included in the dataset.
+Any mainstream browser is supported, as they they all will have built in Javascript engine.
 
-* The net total amount of Profit/Losses over the entire period.
+### Installing
 
-* The average of the **changes** in Profit/Losses over the entire period.
-  * You will need to track what the total change in profits are from month to month and then find the average.
-  * (`Total/Number of months`)
+* How/where to download your program
+* Any modifications needed to be made to files/folders
 
-* The greatest increase in profits (date and amount) over the entire period.
+### Executing program
 
-* The greatest decrease in losses (date and amount) over the entire period.
+* How to run the program
+* Step-by-step bullets
+```
+code blocks for commands
+```
 
-When you open your code in the browser your resulting analysis should look similar to the following:
+## Help
 
-  ```text
-  Financial Analysis
-  ----------------------------
-  Total Months: 25
-  Total: $2561231
-  Average  Change: $-2315.12
-  Greatest Increase in Profits: Feb-2012 ($1926159)
-  Greatest Decrease in Profits: Sep-2013 ($-2196167)
-  ```
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
 
-Your final code should print the analysis to the console.
+## Authors
 
-**Hints:**
+Contributors names and contact info
 
-* You will need to do some research on your own for this project!
+ex. Dominique Pizzie  
+ex. [@DomPizzie](https://twitter.com/dompizzie)
 
-* Remember, in order to combine strings and variables in the console you will need to use **concatenation**.
+## Version History
 
-* How do you only print to the nearest 100th in JavaScript?
+* 0.2
+    * Various bug fixes and optimizations
+    * See [commit change]() or See [release history]()
+* 0.1
+    * Initial Release
 
-## Grading Requirements
+## License
 
-This homework is graded based on the following criteria: 
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
-### Technical Acceptance Criteria: 40%
+## Acknowledgments
 
-* Satisfies all of the above acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Repository Quality: 12%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for variable naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
----
-
-## Copyright
-
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
-
+Inspiration, code snippets, etc.
+* [awesome-readme](https://github.com/matiassingers/awesome-readme)
+* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+* [dbader](https://github.com/dbader/readme-template)
+* [zenorocha](https://gist.github.com/zenorocha/4526327)
+* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
