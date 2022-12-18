@@ -15,48 +15,35 @@ Any mainstream browser is supported, as they they all will have built in Javascr
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+It will be deployed on github pages at:
+https://mihacuo.github.io/Console-Finances/
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+open your browser 
+head to 
+https://mihacuo.github.io/Console-Finances/
+open console
+see the result
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
+- Aleksandra Miekisiak https://github.com/amiekisiak
+- Aleksandr Riabov https://github.com/AleksandrRiabov
+ 
+ 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+* 1.0 1st release, which has shown the required results
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [Dan Mueller] @ hgreat instructor Bootcamp, cohort started Nov'2022
